@@ -8,21 +8,21 @@ const Footer: React.FC = () => {
         <p>Desarrollado por Matías Arroyo - 2024</p>
         <div className="social-icons">
           <a
-            href="https://www.linkedin.com/in/tu-perfil"
+            href="https://www.linkedin.com/in/matias-arroyo19"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/tu-usuario"
+            href="https://github.com/matiasarroyo1978/card-game"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub />
           </a>
           <a
-            href="https://twitter.com/tu-usuario"
+            href="https://twitter.com/arroyomatias19"
             target="_blank"
             rel="noopener noreferrer"
           >
