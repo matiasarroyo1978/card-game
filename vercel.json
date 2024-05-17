@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "next.config.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "pages/index.tsx",
+        "use": "@vercel/static-build"
+      }
+    ],
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/.*", "dest": "/pages/index.tsx" }
+    ]
+  }
+  
