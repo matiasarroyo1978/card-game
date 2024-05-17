@@ -1,0 +1,100 @@
+body {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.deck {
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+  min-height: 180px;
+}
+
+.reset-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px; 
+  cursor: pointer;
+  margin: 5px 0; 
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.reset-button:hover {
+  background-color: #0056b3; 
+}
+
+.card {
+  margin: 5px;
+  cursor: pointer;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+}
+
+.empty-deck {
+  margin: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 100px;
+  min-height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p{
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;;
+}
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0073b1; 
+}
