@@ -6,13 +6,9 @@
         "use": "@vercel/node"
       },
       {
-        "src": "pages/index.tsx",
-        "use": "@vercel/static-build"
+        "src": "pages/**/*.{ts,tsx}",
+        "use": "@vercel/next"
       }
-    ],
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/.*", "dest": "/pages/index.tsx" }
     ]
   }
   
